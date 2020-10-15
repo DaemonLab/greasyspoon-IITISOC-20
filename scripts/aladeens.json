@@ -1,0 +1,505 @@
+[{
+        "name": "Paneer roll",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori paneer tikka",
+        "description": " ",
+        "image": " ",
+        "category": "Appetizer",
+        "label": " ",
+        "price": "85",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli paneer dry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli paneer gravy",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer 65 Dry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer 65 gravy",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Butter paneer masala",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer tikka masala",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Kadhai paneer",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Mutter paneer",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Schezwan paneer",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Dal fry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Dal tadka",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Veg Manchurian",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Veg fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Veg biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer roll",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Plain rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Jeera rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken roll",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "75",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori chicken tikka",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori chicken",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "145",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken Lollipop",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli chicken dry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli chicken gravy",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "130",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken 65 dry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken 65 gravy",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "130",
+        "featured": "false"
+    },
+    {
+        "name": "Butter chicken",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "145",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken masala",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "145",
+        "featured": "false"
+    },
+    {
+        "name": "Kadhai chicken",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "145",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken homestyle",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "145",
+        "featured": "false"
+    },
+    {
+        "name": "Egg bhurji curry",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken tikka biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken dum biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Tandori roti plain",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "8",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori roti butter",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "10",
+        "featured": "false"
+    },
+    {
+        "name": "Plain naan",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "15",
+        "featured": "false"
+    },
+    {
+        "name": "Butter naan",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Cheese naan",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Garlic naan",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Plain maggi",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Veg maggi",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Cheese maggi",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Strawberry shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Black current shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Black current shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Mango shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Butterscotch shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Oreo shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Lemon soda",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Thums up",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Coke",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Fanta",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Sprite",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Maaza",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    }
+]

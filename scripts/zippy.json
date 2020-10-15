@@ -1,0 +1,127 @@
+[{
+        "name": "Chicken Biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Veg Biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "90",
+        "featured": "false"
+    },
+    {
+        "name": "Egg omelette",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Samosa",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Schezwan fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori chicken",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "120",
+        "featured": "false"
+    },
+    {
+        "name": "Veg hakka noodles",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "90",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer bhurji",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Roti",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "5",
+        "featured": "false"
+    },
+    {
+        "name": "Plain paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Aloo paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Dal rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Veg thali",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    }
+]

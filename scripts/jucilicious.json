@@ -1,0 +1,64 @@
+[{
+        "name": "Kullad tea half",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "12",
+        "featured": "false"
+    },
+    {
+        "name": "Kullad tea full",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "24",
+        "featured": "false"
+    },
+    {
+        "name": "Banana shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Chiku shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Cold coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Nimbu Pani",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Oreo shake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    }
+]

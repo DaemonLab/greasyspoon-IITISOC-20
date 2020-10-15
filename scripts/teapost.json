@@ -1,0 +1,271 @@
+[{
+        "name": "Half tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "12",
+        "featured": "false"
+    },
+    {
+        "name": "Full tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Flavour tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "35",
+        "featured": "false"
+    },
+    {
+        "name": "Ice tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Hot Bournvita",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Cold Bournvita",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Chocolate milkshake",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Black coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Hot coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "35",
+        "featured": "false"
+    },
+    {
+        "name": "Cold coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Thepla",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Poha",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Handvo",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Upma",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Maska Bun",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Oats",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "French fries",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Veggie fingers",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Cheese garlic bread",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Bread butter sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Mexican cheese sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Tandoori paneer sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Vegetable sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Cheese chilli sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Aloo puff ",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Cheese puff",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "35",
+        "featured": "false"
+    },
+    {
+        "name": "Mexican puff",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Noodles",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Bhakhri",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Khakhra",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "10",
+        "featured": "false"
+    }
+]

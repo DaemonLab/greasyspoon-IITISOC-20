@@ -21,8 +21,12 @@ const Cafe = require('../models/Cafe').Cafe;
 const upload = require('../config/multer_support')
 const authService = require('../services/authService_user');
 const jwt = require('jsonwebtoken');
-
-//working api route is /api/profile
+const {
+    cloudinaryConfig,
+    uploader,
+    parseImage
+} = require('../config/cloudinary_support')
+    //working api route is /api/profile
 
 //get request to working api sends back the user document currently logged in
 //if not logged in sends 401
@@ -136,11 +140,29 @@ router.post('/register/images', upload.fields([{
     let workingCafe = await Cafe.findOne({
         _id: req.user._id
     });
+    const Datauri = require('datauri');
     if (req.files.logoImage !== undefined) {
-        workingCafe.logoURL = req.files.logoImage[0].path
+
+        const datauri = new Datauri();
+        datauri.format(path.extname(req.files.logoImage[0].originalname).toString(), req.files.logoImage[0].buffer);
+        uploader.upload(datauri.content)
+            .then((result) => {
+                workingCafe.logoURL = result.url;
+            })
+            .catch(err => res.status(500).json({
+                error: 'Could not upload'
+            }))
     }
     if (req.files.cafeImage !== undefined) {
-        workingCafe.imageURL = req.files.cafeImage[0].path
+        let datauri1 = new Datauri();
+        datauri1.format(path.extname(req.files.cafeImage[0].originalname).toString(), req.files.cafeImage[0].buffer);
+        uploader.upload(datauri1.content)
+            .then((result) => {
+                workingCafe.imageURL = result.url;
+            })
+            .catch(err => res.status(500).json({
+                error: 'Could not upload'
+            }))
     }
     try {
         let savedCafe = await workingCafe.save();
@@ -220,6 +242,30 @@ router.post('/register/cafe/withImage', upload.fields([{
         })
     } else {
         console.log('registering Cafe ', req.body);
+        let logoURL, imageURL;
+        if (req.files.logoImage !== undefined) {
+
+            const datauri = new Datauri();
+            datauri.format(path.extname(req.files.logoImage[0].originalname).toString(), req.files.logoImage[0].buffer);
+            uploader.upload(datauri.content)
+                .then((result) => {
+                    logoURL = result.url;
+                })
+                .catch(err => res.status(500).json({
+                    error: 'Could not upload'
+                }))
+        }
+        if (req.files.cafeImage !== undefined) {
+            let datauri1 = new Datauri();
+            datauri1.format(path.extname(req.files.cafeImage[0].originalname).toString(), req.files.cafeImage[0].buffer);
+            uploader.upload(datauri1.content)
+                .then((result) => {
+                    imageURL = result.url;
+                })
+                .catch(err => res.status(500).json({
+                    error: 'Could not upload'
+                }))
+        }
 
         var newAcc = new Cafe({
             name: req.body.name,
@@ -231,8 +277,8 @@ router.post('/register/cafe/withImage', upload.fields([{
             role: 'Cafe',
             description: req.body.description,
             password: bcrypt.hashSync(req.body.password, 10),
-            logoURL: req.files.logoImage !== undefined ? req.files.logoImage[0].path : '',
-            imageURL: req.files.cafeImage !== undefined ? req.files.cafeImage[0].path : '',
+            logoURL,
+            imageURL,
         })
 
         try {
@@ -265,16 +311,16 @@ router.post('/login/cafe', passport.authenticate('local', {
         authService.signToken(req, res);
     })
     //checks whether a user(User or Cafe) is logged in or not
-/*router.get('/check', (req, res) => {
-        console.log('checking');
-        if (req.user) {
-            res.status.json({
-                user: req.user
-            });
-        } else {
-            res.sendStatus(404);
-        }
-    })*/
+    /*router.get('/check', (req, res) => {
+            console.log('checking');
+            if (req.user) {
+                res.status.json({
+                    user: req.user
+                });
+            } else {
+                res.sendStatus(404);
+            }
+        })*/
     //allows User login using google oauth 2 (login only if from iiti domain name)
     // router.get('/login/user',
     //         passport.authenticate("google", {

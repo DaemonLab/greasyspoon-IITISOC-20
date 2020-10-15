@@ -1,0 +1,658 @@
+[{
+        "name": "Aloo paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "55",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Tawa roti",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Butter chicken w/ paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "155",
+        "featured": "false"
+    },
+    {
+        "name": "Butter chicken w/ rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "155",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken curry w/ paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "155",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken curry w/ rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "155",
+        "featured": "false"
+    },
+    {
+        "name": "Butter paneer w/ paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Butter paneer w/ rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Veg biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken biryani",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "135",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "100",
+        "featured": "false"
+    },
+    {
+        "name": "Egg fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "95",
+        "featured": "false"
+    },
+    {
+        "name": "Veg fried rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken hakka noodles",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "115",
+        "featured": "false"
+    },
+    {
+        "name": "Veg hakka noodles",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "95",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli paneer",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Chilli chicken",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "150",
+        "featured": "false"
+    },
+    {
+        "name": "Veg manchurian",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Pasta alfredo",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Pasta arrabiata",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "110",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken spring roll",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "95",
+        "featured": "false"
+    },
+    {
+        "name": "veg spring roll",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Chola bhatura",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Pav bhaji",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Sada Dosa",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Uttapam",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "90",
+        "featured": "false"
+    },
+    {
+        "name": "Masala Dosa",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Pav bhaji",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Idli sambar",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "10",
+        "featured": "false"
+    },
+    {
+        "name": "Tea",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Hot coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "15",
+        "featured": "false"
+    },
+    {
+        "name": "Cookies 250",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "250",
+        "featured": "false"
+    },
+    {
+        "name": "Cookies 300",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "300",
+        "featured": "false"
+    },
+    {
+        "name": "Cookies 350",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "350",
+        "featured": "false"
+    },
+    {
+        "name": "Puff 180",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "180",
+        "featured": "false"
+    },
+    {
+        "name": "Puff 200",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "200",
+        "featured": "false"
+    },
+    {
+        "name": "Muffin",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Dry cake",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "E/L Brownie",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Rum Ball",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Pineapple pastry",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Chocolate doughnuts",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Black forest pastry",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Truffle pastry",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Aloo mutter",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "15",
+        "featured": "false"
+    },
+    {
+        "name": "Patties",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer patties",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Spring patties",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken patties",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Cream roll",
+        "description": " ",
+        "image": " ",
+        "category": "Dessert",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Gulab Jamun",
+        "description": " ",
+        "image": " ",
+        "category": "Dessert",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    },
+    {
+        "name": "Kala Jamun",
+        "description": " ",
+        "image": " ",
+        "category": "Dessert",
+        "label": " ",
+        "price": "15",
+        "featured": "false"
+    },
+    {
+        "name": "Samosa",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "65",
+        "featured": "false"
+    },
+    {
+        "name": "Cold coffee with ice-cream",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "45",
+        "featured": "false"
+    },
+    {
+        "name": "Cold coffee",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Shakes with ice-cream",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Chocolate shakes",
+        "description": " ",
+        "image": " ",
+        "category": "Beverage",
+        "label": " ",
+        "price": "55",
+        "featured": "false"
+    },
+    {
+        "name": "Mini veg Pizza",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Roll chilli paneer",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Roll Chowmin",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "50",
+        "featured": "false"
+    },
+    {
+        "name": "Veg burger cheese",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "40",
+        "featured": "false"
+    },
+    {
+        "name": "Coleslaw sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "70",
+        "featured": "false"
+    },
+    {
+        "name": "Paneer tikka sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "55",
+        "featured": "false"
+    },
+    {
+        "name": "Roasted veg sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "55",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken mayonnaise sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "80",
+        "featured": "false"
+    },
+    {
+        "name": "Chicken tikka sandwich",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "60",
+        "featured": "false"
+    },
+    {
+        "name": "Jeera rice",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "35",
+        "featured": "false"
+    },
+    {
+        "name": "Bread Omelette",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "25",
+        "featured": "false"
+    },
+    {
+        "name": "Omelette",
+        "description": " ",
+        "image": " ",
+        "category": "Snacks",
+        "label": " ",
+        "price": "10",
+        "featured": "false"
+    },
+    {
+        "name": "Plain paratha",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "20",
+        "featured": "false"
+    },
+    {
+        "name": "Dal mini bowl",
+        "description": " ",
+        "image": " ",
+        "category": "Main",
+        "label": " ",
+        "price": "30",
+        "featured": "false"
+    }
+]

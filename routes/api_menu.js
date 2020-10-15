@@ -4,10 +4,18 @@ const router = express.Router();
 const _ = require("lodash");
 const Menu = require("../models/Menu");
 const Dish = require("../models/Dish");
-const { ensureAuthenticated, ensureCafe } = require("../config/auth");
+const {
+    ensureAuthenticated,
+    ensureCafe
+} = require("../config/auth");
 const upload = require("../config/multer_support");
-
-const { Cafe } = require("../models/Cafe");
+const {
+    uploader,
+    parseImage
+} = require('../config/cloudinary_support')
+const {
+    Cafe
+} = require("../models/Cafe");
 //working api endpoint /api/menu
 //returns list of all cafes
 router.get("/", async(req, res) => {
@@ -90,13 +98,20 @@ router.post("/", ensureCafe, (req, res) => {
 router.post(
     "/withImage",
     ensureCafe,
-    upload.single("dishImage"),
+    upload.single("dishImage"), parseImage,
     (req, res) => {
         console.log(req.body);
         let deepClone = JSON.parse(JSON.stringify(req.body));
         console.log(req.file);
         if (req.file != undefined) {
-            deepClone.pictureURL = req.file.path;
+            uploader.upload(req.file.encodedUri)
+                .then((result) => {
+                    deepClone.pictureURL = result.url;
+                })
+                .catch(err => res.status(500).json({
+                    error: 'Could not upload'
+                }));
+
         }
         deepClone.cafe_id = req.user._id;
         deepClone.availability = deepClone.availability == "true";
@@ -130,13 +145,16 @@ router.post(
 router.patch(
     "/withImage",
     ensureCafe,
-    upload.single("dishImage"),
+    upload.single("dishImage"), parseImage,
     (req, res) => {
         console.log(req.body);
         let deepClone = JSON.parse(JSON.stringify(req.body));
         console.log(req.file);
         if (req.file != undefined) {
-            deepClone.pictureURL = req.file.path;
+            uploader.upload(req.file.encodedUri)
+                .then((result) => {
+                    deepClone.pictureURL = result.url;
+                });
         }
         deepClone.cafe_id = req.user._id;
         if (deepClone.availability !== undefined) {
@@ -177,8 +195,7 @@ router.patch(
 router.put(
     "/:dish_id/onlyImage/",
     ensureCafe,
-    upload.single("dishImage"),
-    async(req, res) => {
+    upload.single("dishImage"), parseImage, async(req, res) => {
         try {
             let workingMenu = await Menu.findOne({
                 cafe_id: req.user._id,
@@ -196,7 +213,10 @@ router.put(
                 });
             }
             if (req.file != undefined) {
-                workingDish.pictureURL = req.file.path;
+                uploader.upload(req.file.encodedUri)
+                    .then((result) => {
+                        workingDish.pictureURL = result.url;
+                    });
             }
             let newMenu = await workingMenu.save();
             res.status(200).json({

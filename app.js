@@ -16,7 +16,7 @@ const bodyParser = require("body-parser");
 const helmet = require("helmet");
 const cors = require("cors");
 const path = require("path");
-
+const csp_header_dict = require("./config/csp-headers");
 //Passport config
 require("./config/passport-google")(passport);
 //passport is for authenticating only
@@ -41,6 +41,10 @@ app.use(
         extended: true,
     })
 );
+const {
+    cloudinaryConfig
+} = require('./config/cloudinary_support')
+
 app.use(bodyParser.json());
 
 app.use(cors());
@@ -48,77 +52,17 @@ app.use(
     expressCspHeader({
         directives: {
             "default-src": [
-                SELF,
-                "*.google.com",
-                "https://*/",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "https://kit.fontawesome.com/*",
-                "*.google.com",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "data:",
-                "https://apis.google.com/js/api.js",
-                "apis.google.com",
-                "self",
-
+                ...csp_header_dict.defaultSrc,
                 SELF,
                 INLINE,
             ],
             "script-src": [
+                ...csp_header_dict.scriptSrc,
                 SELF,
-                "*.google.com",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "https://kit.fontawesome.com/*",
-                "*.google.com",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "data:",
-                "https://apis.google.com/js/api.js",
-                "apis.google.com",
-                "self",
-                "data: *",
                 INLINE,
             ],
-            "img-src": ["data:image/svg+xml", SELF,
-                "*.google.com",
-                "https://*/",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "https://kit.fontawesome.com/*",
-                "*.google.com",
-                "https://kit.fontawesome.com/",
-                "https://images.squarespace-cdn.com/",
-                "https://fonts.gstatic.com/",
-                "*.googleapis.com",
-                "kit.fontawesome.com",
-                "https://apis.google.com/js/",
-                "data:",
-                "https://apis.google.com/js/api.js",
-                "apis.google.com",
-                "self",
-
+            "img-src": [
+                ...csp_header_dict.imgSrc,
                 SELF,
                 INLINE,
             ],
@@ -158,6 +102,7 @@ app.use(passport.initialize());
 // app.use((req, res, next) => [
 //     res.setHeader("default-src 'self'; script-src 'report-sample' 'self' https://apis.google.com/js/api.js https://kit.fontawesome.com/5a3d56a40e.js; style-src 'report-sample' 'self' https://fonts.googleapis.com https://kit-free.fontawesome.com; object-src 'none'; base-uri 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com https://kit-free.fontawesome.com; frame-src 'self' https://accounts.google.com; img-src 'self'; manifest-src 'self'; media-src 'self'; report-uri https://5f4b9f5fb641482c3e7cfaaa.endpoint.csper.io/; worker-src 'self';")
 // ])
+app.use(cloudinaryConfig)
 app.use("/public", express.static("public"));
 
 //Routes
